@@ -1,0 +1,18 @@
+type monData = {
+  cpu_frequency: int,
+  cpu_voltage: string,
+  packages: string,
+  swap_used: int,
+  scaling_governor: string,
+  sdcard_boot_used: float,
+  sdcard_root_used: float,
+  soc_temp: string,
+  localtime: list(int),
+  load1: string,
+  load5: string,
+  load15: string,
+  memory_free: float,
+  memory_available: float,
+  uptime: string,
+  upgrade: string,
+};
